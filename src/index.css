@@ -4,7 +4,10 @@
 .list-container, .post-container {
     margin-top: 5vh;
 }
-#postBody {
+.post {
+    border-bottom: 1px solid gray;
+}
+textarea {
     min-height: 5vh;
     max-height: 40vh;
 }
@@ -14,6 +17,13 @@
     border-radius: 10px;
     border: 1px solid black;
     margin-top: 2vh;
+}
+.button-group {
+    display: grid;
+    justify-content: center;
+}
+#editForm {
+    margin-top: 5vh;
 }
 .hidden {
     display: none;

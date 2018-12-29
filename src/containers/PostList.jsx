@@ -9,14 +9,21 @@ class PostList extends Component {
         if(this.props.posts.allPosts) {
             return this.props.posts.allPosts.map( (post) => {
                 return (
-                    <Link to={`/posts/${post.id}`} key={post.id}>
-                        <li className="media text-muted pt-3 ">
-                            <p className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-                                <strong className="d-block text-gray-dark">{post.title}</strong>
-                                {post.body}
-                            </p>
+                        <li className={`media text-muted pt-3 post post-${post.id}`} key={post.id}>
+                            <div className="col-10">
+                                <Link to={`/posts/${post.id}`}>
+                                    <p className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                                        <strong className="d-block text-gray-dark">{post.title}</strong>
+                                        <span>{post.body} </span>
+                                    </p>
+                                </Link>
+                            </div>
+                            <div className="col-2 button-group">
+                                <Link to={`/post/edit/${post.id}`}>
+                                    <button type="button" className="btn btn-outline-info">Edit</button>
+                                </Link>
+                            </div>
                         </li>
-                    </Link>
                 );
             });
         }

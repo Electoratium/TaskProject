@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-
 import { Redirect } from 'react-router'
 
 
@@ -12,19 +11,10 @@ class PostDetails extends Component {
 
         this.props.fetchPost(idPost);
     }
-    // componentWillUpdate(nextProps) {
-    //     if(this.props.posts.currPost) {
-    //         console.log(this.props.posts.currPost);
-    //     }
-    // }
-
 
     render() {
-        // console.log(this.props.posts);
 
         if(this.props.posts.currPost ) {
-
-
             if (this.props.posts.currPost.status === 404) {
                 return <Redirect to='/404' />
             }

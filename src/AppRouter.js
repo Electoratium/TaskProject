@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import Header from './components/base/Header';
 import Posts from './components/pages/Posts';
 import Post from './components/pages/Post';
+
+import EditPost from './containers/EditPost';
 import NotFound from './components/pages/NotFound';
 
 import {postsActions} from './actions/posts';
@@ -25,6 +27,7 @@ class AppRouter extends Component {
           <Switch>
             <Route path="/" exact component={Posts} />
             <Route path="/posts/:id" component={Post} />
+            <Route path="/post/edit/:id" component={EditPost} />
 
             <Route path="*" component={NotFound} />
           </Switch>

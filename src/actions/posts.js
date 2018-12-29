@@ -58,9 +58,24 @@ const createPost = newPostData => {
     }
 };
 
+const editPost = (idPost, editedData) => {
+    return dispatch => {
+        return Axios.put(`${baseUrl}/posts/${idPost}`, editedData)
+            .then( response => {
+
+                dispatch({
+                    type: 'EDIT_POST',
+                    payload: {
+                        ...response.data
+                    }
+                })
+            })
+    }
+};
 
 export const postsActions = {
     showAll: showAll,
     getPost: getPost,
-    createPost: createPost
+    createPost: createPost,
+    editPost: editPost
 };
