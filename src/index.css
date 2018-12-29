@@ -1,0 +1,6 @@
+.container-fluid {
+    padding: 0;
+}
+.list-container, .post-container {
+    margin-top: 5vh;
+}
