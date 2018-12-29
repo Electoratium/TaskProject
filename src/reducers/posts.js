@@ -10,9 +10,10 @@ export default function posts(state, action) {
             break;
         case 'ALL_POSTS':
             return {
+                ...state,
                 allPosts: [...action.payload]
             };
         default:
-            return initialState;
+            return {...state};
     }
 }

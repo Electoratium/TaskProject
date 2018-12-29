@@ -9,7 +9,7 @@ class PostList extends Component {
             return this.props.posts.allPosts.map( (post) => {
                 return (
                     <Link to={`/posts/${post.id}`} key={post.id}>
-                        <li className="media text-muted pt-3">
+                        <li className="media text-muted pt-3 ">
                             <p className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                                 <strong className="d-block text-gray-dark">{post.title}</strong>
                                 {post.body}

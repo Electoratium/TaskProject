@@ -4,3 +4,14 @@
 .list-container, .post-container {
     margin-top: 5vh;
 }
+#postBody {
+    min-height: 5vh;
+    max-height: 40vh;
+}
+.comment {
+    list-style-type: none;
+    padding: 2vh 0 2vh 2vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 2vh;
+}

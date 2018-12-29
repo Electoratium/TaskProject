@@ -4,10 +4,10 @@ import { connect } from 'react-redux';
 
 import Header from './components/base/Header';
 import Posts from './components/pages/Posts';
-import Post from './containers/Post';
+import Post from './components/pages/Post';
 import NotFound from './components/pages/NotFound';
 
-import {postsActions} from './actions/index';
+import {postsActions} from './actions/posts';
 
 import './index.css';
 
