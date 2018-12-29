@@ -19,6 +19,20 @@ export default function posts(state={}, action) {
                 ]
             };
             break;
+        case 'EDIT_POST':
+            const newPosts = state.allPosts.map( post => {
+                if(post.id === action.payload.id) {
+                    return action.payload
+                }
+                return post;
+            });
+
+            return {
+                ...state,
+                allPosts: [
+                    ...newPosts
+                ]
+            };
         default:
             return {...state};
     }

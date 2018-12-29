@@ -19,9 +19,14 @@ class EditPost extends Component {
 
         this.props.onEditPost(this.props.match.params.id, editedData);
 
+        this.isRedirect = true;
     }
-
     render() {
+        if(this.isRedirect) {
+            return <Redirect to="/" />
+        }
+
+
         if(this.props.posts.currPost) {
             return (
                 <div className="container">
