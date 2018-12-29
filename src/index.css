@@ -15,3 +15,6 @@
     border: 1px solid black;
     margin-top: 2vh;
 }
+.hidden {
+    display: none;
+}

@@ -30,7 +30,7 @@ class Comments extends Component {
                     <div className="form-group">
                         <label htmlFor="postBody">Comment text:</label>
                         <textarea className="form-control" id="postBody"
-                                  rows="2" ref={ input => this.body = input } required></textarea>
+                                  rows="2" ref={ input => this.body = input } maxLength="500" required></textarea>
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>

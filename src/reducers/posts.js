@@ -1,6 +1,4 @@
-const initialState = {};
-
-export default function posts(state, action) {
+export default function posts(state={}, action) {
     switch (action.type) {
         case 'FETCH_POST':
             return {
@@ -13,6 +11,14 @@ export default function posts(state, action) {
                 ...state,
                 allPosts: [...action.payload]
             };
+        case 'NEW_POST':
+            return {
+                allPosts: [
+                    ...state.allPosts,
+                    action.payload
+                ]
+            };
+            break;
         default:
             return {...state};
     }

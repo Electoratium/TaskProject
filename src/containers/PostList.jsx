@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import {Link} from "react-router-dom";
 
+import NewPost from './NewPost';
 
 class PostList extends Component {
     showListPosts() {
@@ -24,9 +25,12 @@ class PostList extends Component {
 
     render() {
         return (
-            <ul>
-                {this.showListPosts()}
-            </ul>
+            <div>
+                <ul>
+                    {this.showListPosts()}
+                </ul>
+                <NewPost />
+            </div>
         )
     }
 }

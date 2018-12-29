@@ -42,7 +42,25 @@ const getPost = id => {
 };
 
 
+const createPost = newPostData => {
+    return dispatch => {
+        return Axios.post(`${baseUrl}/posts/`, newPostData)
+            .then(response => {
+                console.log(response.data);
+
+                dispatch ({
+                    type: 'NEW_POST',
+                    payload: {
+                        ...response.data
+                    }
+                })
+            })
+    }
+};
+
+
 export const postsActions = {
     showAll: showAll,
-    getPost: getPost
+    getPost: getPost,
+    createPost: createPost
 };

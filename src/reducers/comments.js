@@ -1,4 +1,4 @@
-export default function comments(state, action) {
+export default function comments(state=[], action) {
     switch (action.type) {
         case 'NEW_COMMENT':
             return [
@@ -11,6 +11,6 @@ export default function comments(state, action) {
                 ...action.payload,
             ];
         default:
-            return { ...state }
+            return [ ...state ]
     }
 }
