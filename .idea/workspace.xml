@@ -2,8 +2,290 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd92f756-9eed-4fab-af0d-0a55fdfa1b5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dayside/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/build.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dayside.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/dayside.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dayside.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/dayside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jquery.ui.plupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jquery.ui.plupload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree.storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree.storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/application.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/application.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/db.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/db.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/directory.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/directory.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/doc.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/doc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/film.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/film.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/flash.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/flash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/folder_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/folder_open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/linux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/pdf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/php.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/php.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/picture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/ppt.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/ppt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/project.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/project.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/psd.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/psd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/ruby.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/ruby.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/script.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/script.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/txt.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/txt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/xls.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/xls.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/icons/zip.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/icons/zip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/jquery.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/jquery.hotkeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/jquery.hotkeys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/jquery.jstree.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/jquery.jstree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/apple/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/apple/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/apple/d.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/apple/d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/apple/dot_for_ie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/apple/dot_for_ie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/apple/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/apple/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/apple/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/apple/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/classic/d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/classic/d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/classic/d.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/classic/d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/classic/dot_for_ie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/classic/dot_for_ie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/classic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/classic/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/classic/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/classic/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default-rtl/d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default-rtl/d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default-rtl/d.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default-rtl/d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default-rtl/dots.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default-rtl/dots.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default-rtl/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default-rtl/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default-rtl/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default-rtl/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default/d-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default/d-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default/d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default/d.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default/d.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default/d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/jstree/themes/default/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/jstree/themes/default/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/bundleInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/bundleInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/nls.metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/nls.metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/base/worker/workerMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/base/worker/workerMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/base/worker/workerMain.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/base/worker/workerMain.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/bat.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/bat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/coffee.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/coffee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/cpp.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/cpp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/csharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/csharp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/dockerfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/dockerfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/fsharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/fsharp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/go.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/go.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/html.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/ini.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/ini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/jade.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/jade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/java.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/java.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/less.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/lua.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/lua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/objective-c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/objective-c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/php.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/postiats.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/postiats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/powershell.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/powershell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/python.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/python.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/r.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/razor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/razor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/ruby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/scss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/sql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/swift.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/swift.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/vb.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/vb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/xml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/basic-languages/src/yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/basic-languages/src/yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/contrib/quickOpen/browser/symbol-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/contrib/quickOpen/browser/symbol-sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/contrib/suggest/browser/String_16x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/contrib/suggest/browser/String_16x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/contrib/suggest/browser/String_inverse_16x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/contrib/suggest/browser/String_inverse_16x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.de.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.it.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/editor/editor.main.nls.zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/editor/editor.main.nls.zh-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/css/cssMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/css/cssMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/css/cssWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/css/cssWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/html/htmlMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/html/htmlMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/html/htmlWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/html/htmlWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/json/jsonMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/json/jsonMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/json/jsonWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/json/jsonWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/typescript/lib/typescriptServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/typescript/lib/typescriptServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/typescript/src/mode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/typescript/src/mode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/language/typescript/src/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/language/typescript/src/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/dev/vs/loader.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/dev/vs/loader.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/base/worker/workerMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/base/worker/workerMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/bat.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/bat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/coffee.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/coffee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/cpp.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/cpp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/csharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/csharp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/dockerfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/dockerfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/fsharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/fsharp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/go.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/go.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/html.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/ini.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/ini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/jade.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/jade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/java.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/java.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/less.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/lua.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/lua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/objective-c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/objective-c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/php.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/postiats.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/postiats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/powershell.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/powershell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/python.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/python.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/r.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/razor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/razor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/ruby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/scss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/sql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/swift.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/swift.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/vb.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/vb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/xml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/basic-languages/src/yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/basic-languages/src/yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/contrib/quickOpen/browser/symbol-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/contrib/quickOpen/browser/symbol-sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/contrib/suggest/browser/String_16x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/contrib/suggest/browser/String_16x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/contrib/suggest/browser/String_inverse_16x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/contrib/suggest/browser/String_inverse_16x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.de.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.es.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.it.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/editor/editor.main.nls.zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/editor/editor.main.nls.zh-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/css/cssMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/css/cssMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/css/cssWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/css/cssWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/html/htmlMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/html/htmlMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/html/htmlWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/html/htmlWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/json/jsonMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/json/jsonMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/json/jsonWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/json/jsonWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/typescript/lib/typescriptServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/typescript/lib/typescriptServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/typescript/src/mode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/typescript/src/mode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/language/typescript/src/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/language/typescript/src/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/monaco/min/vs/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/monaco/min/vs/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/plupload.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/plupload.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/require.proxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/require.proxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/theme/background.tea" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/theme/background.tea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/lib/theme/dark_ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/lib/theme/dark_ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/makefile.tea" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/makefile.tea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controls/codeTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/controls/codeTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controls/editorPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/controls/editorPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controls/filePanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/controls/filePanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controls/optionsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/controls/optionsButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controls/searchDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/controls/searchDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/controls/uploadDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/controls/uploadDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/fileApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/fileApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/style.tea" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/client/src/style.tea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/branch_remover/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/branch_remover/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/branch_remover/branch_remover.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/branch_remover/branch_remover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/branch_remover/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/branch_remover/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/branch_remover/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/branch_remover/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/collaborate.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/collaborate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/FirebaseToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/FirebaseToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/JWT.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/JWT.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/RTCMultiConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/RTCMultiConnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/addon.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/addon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/firepad.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/firepad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/firepad_original.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/firepad_original.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/lib/meeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/lib/meeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate/makefile.tea" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate/makefile.tea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate_light/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate_light/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate_light/collaborate_light.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate_light/collaborate_light.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate_light/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate_light/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate_light/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate_light/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/collaborate_light/lib/JWT.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/collaborate_light/lib/JWT.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/console/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/console/console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/console/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/console/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/console/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/console/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/git_commit.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/git_commit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/git_commit.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/git_commit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/lib/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/lib/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/lib/git.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/lib/git.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/git_commit/lib/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/git_commit/lib/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/node_runner/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/node_runner/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/node_runner/node_runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/node_runner/node_runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/node_runner/nodeapp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/node_runner/nodeapp/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/node_runner/nodeapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/node_runner/nodeapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pixlr/Untitled.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/pixlr/Untitled.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pixlr/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/pixlr/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pixlr/pixlr.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/pixlr/pixlr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pixlr/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/pixlr/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/realtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/realtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/SocketServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/SocketServer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Exception/ExceptionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Exception/ExceptionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Exception/LogicException.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Exception/LogicException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Exception/ProcessFailedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Exception/ProcessFailedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Exception/ProcessTimedOutException.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Exception/ProcessTimedOutException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/ExecutableFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/ExecutableFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/PhpExecutableFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/PhpExecutableFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/PhpProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/PhpProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/Process.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/Process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/ProcessBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/ProcessBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/ProcessPipes.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/ProcessPipes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/Symfony/Component/Process/ProcessUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/Symfony/Component/Process/ProcessUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/realtime/server/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/realtime/server/server.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/tracker/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/tracker/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/tracker/tracker.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/tracker/tracker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/video_chat/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/video_chat/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/video_chat/video_chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/plugins/video_chat/video_chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/index.tea" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/index.tea" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/jupload/jupload.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/jupload/jupload.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_hex.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_hex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_hsb_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_hsb_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_hsb_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_hsb_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_hsb_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_hsb_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_indic.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_indic.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_rgb_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_rgb_a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_rgb_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_rgb_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_rgb_g.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_rgb_g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_rgb_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_rgb_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_select.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_select.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/colorpicker_submit.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/colorpicker_submit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/teacss_ui_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/teacss_ui_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/ui-icons_2e83ff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/ui-icons_454545_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/ui-icons_888888_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/teacss-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/teacss-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/teacss-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/teacss-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/teacss.js" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/teacss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/assets/teacss/teacss.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/assets/teacss/teacss.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/build.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/Daemon.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/lib/Daemon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/Daemon_fork.php" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/server/lib/Daemon_fork.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/dayside/todo_menu.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,12 +413,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/src/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -167,12 +450,12 @@
       <workItem from="1546454591699" duration="124000" />
       <workItem from="1551280356375" duration="4655000" />
       <workItem from="1551333848266" duration="28331000" />
-      <workItem from="1551423765152" duration="33894000" />
+      <workItem from="1551423765152" duration="35657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106551000" />
+    <option name="totallyTimeSpent" value="108314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -189,10 +472,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4997233" visible="true" weight="0.27262813" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002767" side_tool="true" weight="0.32497275" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4991699" visible="true" weight="0.35550708" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008301" side_tool="true" weight="0.27262813" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -447,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo_menu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -461,6 +737,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
