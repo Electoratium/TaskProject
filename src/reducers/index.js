@@ -1,12 +1,12 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
 
-import postsReducer from './posts';
-import commentsReducer from './comments';
+import loginReducer from './login';
+import tasksReducer from './tasks';
 
 
 const allReducers = combineReducers({
-    posts: postsReducer,
-    comments: commentsReducer
+  login: loginReducer,
+  tasks: tasksReducer,
 });
 
 export default allReducers;

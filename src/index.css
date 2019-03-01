@@ -1,33 +1,40 @@
 .container-fluid {
     padding: 0;
 }
-.list-container, .post-container {
+.list-container, .task-container {
     margin-top: 5vh;
-}
-.post {
-    border-bottom: 1px solid gray;
 }
 textarea {
     min-height: 5vh;
     max-height: 40vh;
 }
-.comment {
-    list-style-type: none;
-    padding: 2vh 0 2vh 2vh;
-    border-radius: 10px;
-    border: 1px solid black;
-    margin-top: 2vh;
+.table th {
+    background: white;
+    cursor: pointer;
+    transition: background-color .5s ease;
 }
-.button-group {
-    display: grid;
-    justify-content: center;
+.table th:hover {
+    background-color: lightgrey;
 }
-#editForm {
+.login-container {
+    height: 80vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-top: 5vh;
+    align-items: center;
 }
-.hidden {
-    display: none;
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(49, 48, 48, 0.8);
+    z-index: 100;
+}
+.modal-container form {
+    background-color: white;
+    padding: 2.5vw 5vw;
 }
